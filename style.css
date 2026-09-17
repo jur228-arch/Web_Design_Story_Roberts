@@ -1,5 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:ital,wght@0,700;1,400&display=swap");
 
+background-attachment: fixed;
+
+body {
+  margin: 0;
+  padding: 2rem;
+
+  background-color: #32174d;
+ background-image:
+  linear-gradient(
+    rgba(50, 23, 77, 0.85),
+    rgba(50, 23, 77, 0.85)
+  ),
+  url("https://lh3.googleusercontent.com/3WHvvnFSspZKbbRkM9SgvIUMDs6efWS5vXgmSglvoHASfV4TUhIFSXd77Ic9x02zAmyrMwpg-py0YceJYVLLCK9SpU9YQU56rm-uTBKb2KoTW3dnjpgVLvhJ26koIF-VXlzao11v=w2400");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
+  color: #2f1820;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+}
 
 /* Makes sizing easier to control */
 * {
