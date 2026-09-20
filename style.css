@@ -1,28 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:ital,wght@0,700;1,400&display=swap");
 
-background-attachment: fixed;
-
-body {
-  margin: 0;
-  padding: 2rem;
-
-  background-color: #32174d;
- background-image:
-  linear-gradient(
-    rgba(50, 23, 77, 0.85),
-    rgba(50, 23, 77, 0.85)
-  ),
-  url("https://lh3.googleusercontent.com/3WHvvnFSspZKbbRkM9SgvIUMDs6efWS5vXgmSglvoHASfV4TUhIFSXd77Ic9x02zAmyrMwpg-py0YceJYVLLCK9SpU9YQU56rm-uTBKb2KoTW3dnjpgVLvhJ26koIF-VXlzao11v=w2400");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-
-  color: #2f1820;
-  font-family: "Open Sans", sans-serif;
-  line-height: 1.6;
-}
-
 /* Makes sizing easier to control */
 * {
   box-sizing: border-box;
@@ -33,16 +10,20 @@ body {
 body {
   margin: 0;
   padding: 2rem;
+
   background-color: #32174d;
 
-  /* Tiger-stripe background pattern */
   background-image: repeating-linear-gradient(
     120deg,
-    transparent 0,
-    transparent 2rem,
-    rgba(92, 16, 24, 0.5) 2rem,
-    rgba(92, 16, 24, 0.5) 3rem
+    #32174d 0,
+    #32174d 3rem,
+    #4a214e 3rem,
+    #4a214e 4.5rem,
+    #32174d 4.5rem,
+    #32174d 7rem
   );
+
+  background-attachment: fixed;
 
   color: #2f1820;
   font-family: "Open Sans", sans-serif;
@@ -132,10 +113,14 @@ main {
   border: 0.1rem solid #d4a437;
 }
 
+.book-page:last-child {
+  box-shadow: inset 1.5rem 0 2rem -1.2rem rgba(0, 0, 0, 0.8);
+}
+
 
 /* Shadow on the inside of the left page */
 .book-page:first-child {
-  box-shadow: inset -1.2rem 0 1.5rem -1.3rem rgba(0, 0, 0, 0.5);
+  box-shadow: inset -1.5rem 0 2rem -1.2rem rgba(0, 0, 0, 0.8);
 }
 
 
