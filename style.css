@@ -113,22 +113,16 @@ main {
   border: 0.1rem solid #d4a437;
 }
 
-.book-page:last-child {
-  box-shadow: inset 1.5rem 0 2rem -1.2rem rgba(0, 0, 0, 0.8);
-}
-
 
 /* Shadow on the inside of the left page */
 .book-page:first-child {
   box-shadow: inset -1.5rem 0 2rem -1.2rem rgba(0, 0, 0, 0.8);
 }
 
-
 /* Shadow on the inside of the right page */
 .book-page:last-child {
-  box-shadow: inset 1.2rem 0 1.5rem -1.3rem rgba(0, 0, 0, 0.5);
+  box-shadow: inset 1.5rem 0 2rem -1.2rem rgba(0, 0, 0, 0.8);
 }
-
 
 /* Story section headings */
 h2 {
@@ -286,12 +280,36 @@ footer a:hover {
     box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.4);
   }
 
-  .book-page:first-child,
-  .book-page:last-child {
-    box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.4);
-  }
 
   h2 {
     font-size: 1.7rem;
   }
 }
+
+/* Choices that lead to the next stories */
+.story-choices {
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #f5e6c8;
+  border: 0.2rem solid #d4a437;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.45);
+}
+
+
+/* Makes each choice look like a storybook button */
+.story-choices a {
+  display: block;
+  margin: 1rem 0;
+  padding: 1rem;
+
+  background-color: #32174d;
+  border: 0.15rem solid #d4a437;
+
+  color: #f5e6c8;
+  font-family: "Playfair Display", serif;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
