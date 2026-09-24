@@ -287,6 +287,7 @@ footer a:hover {
 }
 
 /* Choices that lead to the next stories */
+
 .story-choices {
   max-width: 50rem;
   margin: 0 auto;
@@ -296,7 +297,6 @@ footer a:hover {
   border: 0.2rem solid #d4a437;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.45);
 }
-
 
 /* Makes each choice look like a storybook button */
 .story-choices a {
@@ -312,5 +312,3 @@ footer a:hover {
   font-size: 1.1rem;
   text-decoration: none;
 }
-
-
